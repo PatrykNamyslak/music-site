@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  body, html{
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+nav{
+    background-color: #fff785;
+    height: 100px;
+}
+.content, nav, footer{
+    width: 100dvw;
+}
+.content{
+    display: flex;
+}
+.content, aside, main{
+    height: 100%;
+}
+aside{
+    background-color: #ff85e0;
+    width: 15%;
+}
+main{
+    background-color: #85f7ff;
+    width: 85%;
+}
+
+footer{
+    background-color:#a685ff;
+    height: 500px;
+    margin-top: auto;
+}
